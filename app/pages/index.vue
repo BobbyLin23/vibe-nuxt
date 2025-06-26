@@ -1,5 +1,5 @@
 <template>
   <div>
-    Index
+    <Button>Click</Button>
   </div>
 </template>
