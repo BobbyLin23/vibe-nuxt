@@ -10,11 +10,14 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.1",
     "@nuxt/icon": "1.14.0",
     "@nuxt/image": "1.10.0",
     "@tailwindcss/vite": "^4.1.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dotenv": "^16.6.0",
+    "drizzle-orm": "^0.44.2",
     "lucide-vue-next": "^0.523.0",
     "nuxt": "^3.17.5",
     "reka-ui": "^2.3.1",
@@ -27,6 +30,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^4.16.1",
+    "drizzle-kit": "^0.31.3",
     "eslint": "^9.29.0"
   }
 }
